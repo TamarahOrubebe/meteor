@@ -10,8 +10,8 @@ function App() {
   return (
     <>
      <Header searchTerm={searchTerm}/>
-     <SearchBar />
-     <List />
+     <SearchBar setSearchTerm={setSearchTerm}/>
+     <List searchTerm={searchTerm}/>
     </>
   )
 }
