@@ -2,6 +2,7 @@
 
 export default function Meteorites({name, mass, year, geolocation}) {
 
+    
     return (
         <li>
             <p>Name: {name}</p>
