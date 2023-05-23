@@ -23,7 +23,10 @@ export default function SearchBar({ setSearchTerm }) {
 
   return (
       <section className="searchBar">
+        <div className="nasa-header">
+        <img className="nasa" src="/src/NASA_logo.png"></img>
         <h1>NASA Meteorite Landings</h1>
+        </div>
         <h3>Search by name</h3>
       <div className="searchName">
         <form onSubmit={handleSubmit}>
@@ -36,7 +39,8 @@ export default function SearchBar({ setSearchTerm }) {
           ></input>
           <button>Search</button>
         </form>
-      <button onClick={handleClick}>Get the heaviest ten meteorites</button>
+        
+      <button onClick={handleClick}>Heaviest 10 Meteorites</button>
       </div>
       <form onSubmit={handleYearSearch}>
         <h3>Search by year</h3>

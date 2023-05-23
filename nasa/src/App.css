@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Wix Madefor Text', sans-serif;
+    font-family: 'Wix Madefor Text'
 }
 
 
@@ -20,23 +20,58 @@
     position: absolute;
     display: grid;
     z-index: 2;
-    top: 10%;
+    top: 2%;
     left: 5%;
     margin-top: 0;
     background-color: rgba(255, 255, 255, 0.589);
-    padding: 10px;
+    padding: 12px;
     border: none;
     border-radius: 10px;
+    
 }
 .header {
     position: absolute;
     z-index: 2;
-    top: 5%;
-    left: 5%
+    top: 4%;
+    left: 4%
 }
 
 .searchName {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 2px;
 }
 
+h3 {
+    font-size: 14px;
+}
+
+.nasa {
+    position: relative;
+    height: 50px;
+}
+
+.nasa-header {
+    display: flex;
+    margin-bottom: 1px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 1.8rem;
+}
+
+button {
+    margin: 5px;
+}
+h3 {
+    margin: 1px;
+}
+
+button {
+    padding: 2px;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
