@@ -5,7 +5,7 @@ import SearchBar from "./SearchBar.jsx"
 import List from "./List.jsx"
 
 function App() {
-  const [searchTerm, setSearchTerm] = useState("Aachen")
+  const [searchTerm, setSearchTerm] = useState("")
 
   return (
     <>
