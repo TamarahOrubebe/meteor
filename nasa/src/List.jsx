@@ -48,7 +48,7 @@ export default function List({ searchTerm }) {
   return (
     <> 
       {
-      meteoriteList.length === 0 ? <p>Meteor not found</p> :
+      meteoriteList.length === 0 ? <p>Meteor(s) not found</p> :
       <ul>
         { 
           <Meteorites meteoriteList={meteoriteList}/>

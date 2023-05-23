@@ -11,7 +11,7 @@ const icon = new Icon ({
 })
     return (
         <li>
-            <MapContainer key="map" className="map" center={[0, 0]} zoom={1} scrollWheelZoom={false}>
+            <MapContainer key="map" className="map" center={[0, 0]} zoom={2} scrollWheelZoom={false}>
                 <TileLayer key="TileLayer"
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
