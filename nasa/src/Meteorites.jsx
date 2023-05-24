@@ -6,7 +6,7 @@ import './App.css'
 export default function Meteorites({meteoriteList}) {
 
 const icon = new Icon ({
-    iconUrl: "./src/icon.png",
+    iconUrl: "./src/images/icon.png",
     iconSize: [36, 38]
 })
     return (
@@ -20,7 +20,7 @@ const icon = new Icon ({
                 return (
                 <>
                 {meteor.geolocation ?
-                <Marker key={index} className="icon" position={[meteor.geolocation.latitude, meteor.geolocation.longitude]} icon={icon}>
+                <Marker className="icon" position={[meteor.geolocation.latitude, meteor.geolocation.longitude]} icon={icon}>
                     <Popup key={index}>
                         <div>
                         </div>

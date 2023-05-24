@@ -24,7 +24,7 @@ export default function SearchBar({ setSearchTerm }) {
   return (
       <section className="searchBar">
         <div className="nasa-header">
-        <img className="nasa" src="/src/NASA_logo.png"></img>
+        <img className="nasa" src="./src/images/NASA_logo.png"></img>
         <h1>NASA Meteorite Landings</h1>
         </div>
         <h3>Search by name</h3>
